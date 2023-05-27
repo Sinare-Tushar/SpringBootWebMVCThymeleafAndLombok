@@ -10,6 +10,7 @@ public class EmployeeController {
 @RequestMapping("reg")
 public String showEmployee() {
 	log.info("Hello How Are You");
+	log.info("I am Fine");
 	return "Register";
 }
 }
